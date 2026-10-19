@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071320">
+  <meta name="description" data-meta-description content="HighTableGroup — four public knowledge rooms for computer science, careers, language and research.">
+  <meta name="application-name" content="HighTableGroup">
+  <meta name="apple-mobile-web-app-title" content="HighTableGroup">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HighTableGroup">
+  <meta property="og:description" content="Three flagship institutes. One laboratory. One research annex. A table for the work that shapes a life.">
+  <meta property="og:site_name" content="HighTableGroup">
+  <meta property="og:image" content="assets/og-cover.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>HighTableGroup — A table for the work that shapes a life</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "HighTableGroup",
+      "alternateName": "高桌会议集团",
+      "description": "HighTableGroup builds public environments for learning, work, language and research.",
+      "knowsLanguage": ["en", "zh-Hans", "fr"],
+      "sameAs": [
+        "https://imseo-joon.github.io/HTcsLab/",
+        "https://imseo-joon.github.io/HTrecruitmentInstitute/",
+        "https://imseo-joon.github.io/HTgrammaticalResearch/",
+        "https://imseo-joon.github.io/HTresearchDepartment/"
+      ]
+    }
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/brand/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/noto-serif-sc-subset.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=6">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+  <div class="edition-bar">
+    <div class="edition-bar__inner">
+      <span class="edition-bar__status"><i aria-hidden="true"></i><span data-i18n="rail.status">The table is open</span></span>
+      <span class="edition-bar__note" data-i18n="rail.note">Four public knowledge rooms · One shared standard</span>
+      <span class="edition-bar__edition">EDITION 01 · OCT 2026</span>
+    </div>
+  </div>
+
+  <header class="masthead" id="masthead">
+    <div class="masthead__inner">
+      <a class="brand" href="#top" aria-label="HighTableGroup" data-i18n-aria="brand.aria">
+        <img class="brand__mark" src="assets/brand/logo-round.png" alt="" width="512" height="512">
+        <span class="brand__text">
+          <span class="brand__name">HighTableGroup</span>
+          <span class="brand__sub" data-i18n="brand.sub">Research · Innovation · Together</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation" data-i18n-aria="nav.aria">
+        <a href="#group" data-i18n="nav.group">The group</a>
+        <a href="#flagships" data-i18n="nav.flagships">Flagships</a>
+        <a href="#laboratory" data-i18n="nav.laboratory">Laboratory</a>
+        <a href="#progress" data-i18n="nav.progress">In progress</a>
+      </nav>
+
+      <div class="header-tools">
+        <div class="language-switch language-switch--header" role="group" aria-label="Choose language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false">中</button>
+          <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+        </div>
+        <button class="menu-toggle" type="button" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span>
+          <span class="sr-only" data-i18n="nav.menu">Menu</span>
+        </button>
+      </div>
+    </div>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile navigation" data-i18n-aria="nav.aria">
+        <a href="#group" data-i18n="nav.group">The group</a>
+        <a href="#flagships" data-i18n="nav.flagships">Flagships</a>
+        <a href="#laboratory" data-i18n="nav.laboratory">Laboratory</a>
+        <a href="#progress" data-i18n="nav.progress">In progress</a>
+      </nav>
+      <div class="language-switch language-switch--menu" role="group" aria-label="Choose language">
+        <button type="button" data-lang="en" aria-pressed="true">English</button>
+        <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button type="button" data-lang="fr" aria-pressed="false">Français</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__ornament hero__ornament--ring" aria-hidden="true"></div>
+      <div class="hero__ornament hero__ornament--line" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow reveal" data-i18n="hero.kicker">Independent education, research &amp; public knowledge</p>
+          <h1 class="hero__title">
+            <span class="reveal" data-i18n="hero.title1">A table for</span>
+            <span class="reveal" data-i18n="hero.title2">the work that</span>
+            <em class="reveal" data-i18n="hero.title3">shapes a life.</em>
+          </h1>
+          <p class="hero__cn reveal" lang="zh-Hans" data-i18n="hero.cn">一张桌子，安放塑造人生的学问。</p>
+          <p class="hero__lead reveal" data-i18n="hero.lead">HighTableGroup is an independent group of learning environments: a computer laboratory, a recruitment institute, a grammatical research centre, and a research annex. Different rooms, one conviction — serious knowledge should be public, practical, and alive.</p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--gold" href="#flagships">
+              <span data-i18n="hero.ctaRooms">Explore the four rooms</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="text-link text-link--light" href="#group" data-i18n="hero.ctaStandard">Read our standard</a>
+          </div>
+        </div>
+
+        <div class="room-window reveal" aria-label="Four High Table rooms" data-i18n-aria="hero.windowLabel">
+          <div class="room-window__head">
+            <span data-i18n="hero.windowTitle">The house · four rooms</span>
+            <span>HT / 04</span>
+          </div>
+          <div class="room-window__grid">
+            <a class="room-pane room-pane--lab" href="#lab-card">
+              <img src="assets/previews/lab.png" alt="Computer Science Laboratory interface preview" data-i18n-alt="hero.room1.alt" width="1440" height="900">
+              <span class="room-pane__shade" aria-hidden="true"></span>
+              <span class="room-pane__meta"><b>01</b><span data-i18n="hero.room1">Computer Science Lab</span></span>
+            </a>
+            <a class="room-pane room-pane--recruit" href="#recruit-card">
+              <img src="assets/previews/recruitment.png" alt="Recruitment Institute interface preview" data-i18n-alt="hero.room2.alt" width="1440" height="900">
+              <span class="room-pane__shade" aria-hidden="true"></span>
+              <span class="room-pane__meta"><b>02</b><span data-i18n="hero.room2">Recruitment Institute</span></span>
+            </a>
+            <a class="room-pane room-pane--grammar" href="#grammar-card">
+              <img src="assets/previews/grammar.png" alt="Grammatical Research Center interface preview" data-i18n-alt="hero.room3.alt" width="1440" height="900">
+              <span class="room-pane__shade" aria-hidden="true"></span>
+              <span class="room-pane__meta"><b>03</b><span data-i18n="hero.room3">Grammatical Research</span></span>
+            </a>
+            <a class="room-pane room-pane--research" href="#research-card">
+              <img src="assets/previews/research.png" alt="Research Department interface preview" data-i18n-alt="hero.room4.alt" width="1440" height="900">
+              <span class="room-pane__shade" aria-hidden="true"></span>
+              <span class="room-pane__meta"><b>04</b><span data-i18n="hero.room4">Research Department</span></span>
+            </a>
+          </div>
+          <p class="room-window__foot"><span data-i18n="hero.windowFoot">Three flagships, one laboratory annex</span><span>EN · 中 · FR</span></p>
+        </div>
+      </div>
+
+      <div class="wrap hero__ledger">
+        <div><strong>03</strong><span data-i18n="hero.stat1">Flagship institutes</span></div>
+        <div><strong>01</strong><span data-i18n="hero.stat2">Laboratory subproject</span></div>
+        <div><strong>04</strong><span data-i18n="hero.stat3">Public rooms</span></div>
+        <div><strong>03</strong><span data-i18n="hero.stat4">Portal languages</span></div>
+      </div>
+    </section>
+
+    <section class="section section--paper" id="group">
+      <div class="wrap">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="section-index"><span>01</span><span data-i18n="about.kicker">The group</span></p>
+            <h2 data-i18n="about.title">One standard across four rooms.</h2>
+          </div>
+          <p class="section-heading__lead" data-i18n="about.lead">We build public knowledge environments for the moment a person needs to move from curiosity to capability: the next problem, the next role, the next sentence, the next defensible question.</p>
+        </div>
+
+        <div class="manifesto reveal">
+          <div class="manifesto__mark" aria-hidden="true">“</div>
+          <blockquote data-i18n="about.quote">The table is not a stage. It is a place to put what you are working on.</blockquote>
+          <p data-i18n="about.body">Each project has its own discipline and its own interface. What they share is a method: choose a real need, build a working tool, state the limits, and keep improving in public.</p>
+        </div>
+
+        <div class="principles reveal">
+          <article class="principle">
+            <span class="principle__num">I</span>
+            <h3 data-i18n="about.p1.title">Rigour over theatre</h3>
+            <p data-i18n="about.p1.body">Every claim, dataset and source should earn its place.</p>
+          </article>
+          <article class="principle">
+            <span class="principle__num">II</span>
+            <h3 data-i18n="about.p2.title">Access over gatekeeping</h3>
+            <p data-i18n="about.p2.body">No accounts, no tracking, no unnecessary walls.</p>
+          </article>
+          <article class="principle">
+            <span class="principle__num">III</span>
+            <h3 data-i18n="about.p3.title">Practice over polish</h3>
+            <p data-i18n="about.p3.body">Tools are made to be used, tested and revised.</p>
+          </article>
+          <article class="principle">
+            <span class="principle__num">IV</span>
+            <h3 data-i18n="about.p4.title">Evolution over arrival</h3>
+            <p data-i18n="about.p4.body">The work is published, then made better.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--ink flagships" id="flagships">
+      <div class="wrap">
+        <div class="section-heading section-heading--split section-heading--dark reveal">
+          <div>
+            <p class="section-index"><span>02</span><span data-i18n="flagships.kicker">Flagship institutes</span></p>
+            <h2 data-i18n="flagships.title">Three rooms built for different questions.</h2>
+          </div>
+          <p class="section-heading__lead" data-i18n="flagships.lead">Each flagship is a complete public environment, not a brochure. Enter with a real task; leave with something you can use.</p>
+        </div>
+
+        <article class="flagship flagship--lab reveal" id="lab-card">
+          <div class="flagship__copy">
+            <div class="flagship__meta">
+              <span class="flagship__number">01</span>
+              <span class="status-chip status-chip--beta" data-i18n="common.internalBeta">Internal beta</span>
+            </div>
+            <p class="flagship__kicker" data-i18n="lab.kicker">Computer science · Practice floor</p>
+            <h3>Laboratoire de la <em>Haute Table</em></h3>
+            <p class="flagship__cn" lang="zh-Hans">高桌 CS 实验室</p>
+            <p class="flagship__body" data-i18n="lab.body">A hands-on computer laboratory for solving problems, reading algorithms and AI, watching ideas move, preparing for contests, and rehearsing cyber defence.</p>
+            <div class="flagship__stats">
+              <div><strong>56</strong><span data-i18n="lab.stat1">practice problems</span></div>
+              <div><strong>11</strong><span data-i18n="lab.stat2">languages</span></div>
+              <div><strong>15</strong><span data-i18n="lab.stat3">interactive demos</span></div>
+              <div><strong>17</strong><span data-i18n="lab.stat4">contest guides</span></div>
+            </div>
+            <ul class="tag-list">
+              <li data-i18n="lab.tag1">Live debugging</li>
+              <li data-i18n="lab.tag2">AI &amp; algorithms</li>
+              <li data-i18n="lab.tag3">Cyber defence</li>
+              <li data-i18n="lab.tag4">Chinese · English · bilingual</li>
+            </ul>
+            <a class="btn btn--outline-light" href="https://imseo-joon.github.io/HTcsLab/" target="_blank" rel="noopener">
+              <span data-i18n="lab.cta">Enter the Laboratory</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+          <a class="flagship__screen flagship__screen--lab" href="https://imseo-joon.github.io/HTcsLab/" target="_blank" rel="noopener" aria-label="Open the Computer Science Laboratory" data-i18n-aria="lab.screenLabel">
+            <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><b>imseo-joon.github.io/HTcsLab</b></span>
+            <img src="assets/previews/lab-portrait.png" alt="Computer Science Laboratory home page" data-i18n-alt="hero.room1.alt" width="720" height="960">
+            <span class="screen-caption"><span data-i18n="lab.caption">Learn by making it work.</span><b>LAB / 01</b></span>
+          </a>
+        </article>
+
+        <article class="flagship flagship--recruit reveal" id="recruit-card">
+          <div class="flagship__copy">
+            <div class="flagship__meta">
+              <span class="flagship__number">02</span>
+              <span class="status-chip status-chip--beta" data-i18n="common.internalBeta">Internal beta</span>
+            </div>
+            <p class="flagship__kicker" data-i18n="recruit.kicker">Careers · Role intelligence</p>
+            <h3>High Table <em>Recruitment Institute</em></h3>
+            <p class="flagship__cn" lang="zh-Hans">高桌招聘研究院</p>
+            <p class="flagship__body" data-i18n="recruit.body">An independent career atlas for reading roles, pay, work intensity and interview signals before walking into the room.</p>
+            <div class="flagship__stats">
+              <div><strong>24</strong><span data-i18n="recruit.stat1">companies</span></div>
+              <div><strong>79</strong><span data-i18n="recruit.stat2">role profiles</span></div>
+              <div><strong>25</strong><span data-i18n="recruit.stat3">rehearsal prompts</span></div>
+              <div><strong>08</strong><span data-i18n="recruit.stat4">field notes</span></div>
+            </div>
+            <ul class="tag-list">
+              <li data-i18n="recruit.tag1">Public sources</li>
+              <li data-i18n="recruit.tag2">Pay architecture</li>
+              <li data-i18n="recruit.tag3">Interview rehearsal</li>
+              <li data-i18n="recruit.tag4">EN · 中 · FR</li>
+            </ul>
+            <a class="btn btn--outline-light" href="https://imseo-joon.github.io/HTrecruitmentInstitute/" target="_blank" rel="noopener">
+              <span data-i18n="recruit.cta">Enter the Institute</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+          <a class="flagship__screen flagship__screen--recruit" href="https://imseo-joon.github.io/HTrecruitmentInstitute/" target="_blank" rel="noopener" aria-label="Open the High Table Recruitment Institute" data-i18n-aria="recruit.screenLabel">
+            <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><b>imseo-joon.github.io/HTrecruitmentInstitute</b></span>
+            <img src="assets/previews/recruitment-portrait.png" alt="High Table Recruitment Institute home page" data-i18n-alt="hero.room2.alt" width="720" height="960">
+            <span class="screen-caption"><span data-i18n="recruit.caption">Read the room before you enter it.</span><b>REC / 02</b></span>
+          </a>
+        </article>
+
+        <article class="flagship flagship--grammar reveal" id="grammar-card">
+          <div class="flagship__copy">
+            <div class="flagship__meta">
+              <span class="flagship__number">03</span>
+              <span class="status-chip status-chip--beta" data-i18n="common.internalBeta">Internal beta</span>
+            </div>
+            <p class="flagship__kicker" data-i18n="grammar.kicker">Language · Humanistic practice</p>
+            <h3>High Table <em>Grammatical Research Center</em></h3>
+            <p class="flagship__cn" lang="zh-Hans">高桌文法研究中心</p>
+            <p class="flagship__body" data-i18n="grammar.body">A small college without walls: grammar, emotion, social life, love and creation, joined to a searchable library of language and text.</p>
+            <div class="flagship__stats">
+              <div><strong>05</strong><span data-i18n="grammar.stat1">studies</span></div>
+              <div><strong>51</strong><span data-i18n="grammar.stat2">library entries</span></div>
+              <div><strong>03</strong><span data-i18n="grammar.stat3">languages</span></div>
+              <div><strong>01</strong><span data-i18n="grammar.stat4">small college</span></div>
+            </div>
+            <ul class="tag-list">
+              <li data-i18n="grammar.tag1">Grammar</li>
+              <li data-i18n="grammar.tag2">Emotion &amp; society</li>
+              <li data-i18n="grammar.tag3">Love &amp; creation</li>
+              <li data-i18n="grammar.tag4">Searchable library</li>
+            </ul>
+            <a class="btn btn--outline-light" href="https://imseo-joon.github.io/HTgrammaticalResearch/" target="_blank" rel="noopener">
+              <span data-i18n="grammar.cta">Enter the Centre</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+          <a class="flagship__screen flagship__screen--grammar" href="https://imseo-joon.github.io/HTgrammaticalResearch/" target="_blank" rel="noopener" aria-label="Open the High Table Grammatical Research Center" data-i18n-aria="grammar.screenLabel">
+            <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><b>imseo-joon.github.io/HTgrammaticalResearch</b></span>
+            <img src="assets/previews/grammar-portrait.png" alt="High Table Grammatical Research Center home page" data-i18n-alt="hero.room3.alt" width="720" height="960">
+            <span class="screen-caption"><span data-i18n="grammar.caption">Better language, deeper thoughts, richer lives.</span><b>GRM / 03</b></span>
+          </a>
+        </article>
+
+        <article class="subproject reveal" id="research-card">
+          <div class="subproject__copy">
+            <div class="subproject__meta">
+              <span class="subproject__label" data-i18n="sub.kicker">Laboratory subproject</span>
+              <span class="status-chip status-chip--live" data-i18n="common.live">Live</span>
+            </div>
+            <p class="subproject__number">04 <span data-i18n="sub.notFlagship">Not a fourth flagship</span></p>
+            <h3>High Table <em>Research Department</em></h3>
+            <p class="flagship__cn" lang="zh-Hans">高桌科研发展司</p>
+            <p class="subproject__body" data-i18n="sub.body">A research-development annex grown inside the Computer Science Laboratory — built for the long middle between a first question and a final defence.</p>
+            <div class="subproject__line" aria-hidden="true"><span></span><b>LAB → R&amp;D</b></div>
+            <div class="subproject__stats">
+              <div><strong>28</strong><span data-i18n="sub.stat1">engineering subfields</span></div>
+              <div><strong>81</strong><span data-i18n="sub.stat2">indexed papers</span></div>
+              <div><strong>10</strong><span data-i18n="sub.stat3">research stages</span></div>
+            </div>
+            <a class="btn btn--gold" href="https://imseo-joon.github.io/HTresearchDepartment/" target="_blank" rel="noopener">
+              <span data-i18n="sub.cta">Enter the Research Department</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+          <a class="subproject__screen" href="https://imseo-joon.github.io/HTresearchDepartment/" target="_blank" rel="noopener" aria-label="Open the High Table Research Department" data-i18n-aria="sub.screenLabel">
+            <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><b>imseo-joon.github.io/HTresearchDepartment</b></span>
+            <img src="assets/previews/research-portrait.png" alt="High Table Research Department home page" data-i18n-alt="hero.room4.alt" width="720" height="960">
+            <span class="screen-caption"><span data-i18n="sub.caption">From first question to final defence.</span><b>R&amp;D / 04</b></span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--paper-deep laboratory" id="laboratory">
+      <div class="wrap">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="section-index"><span>03</span><span data-i18n="labModule.kicker">Inside the laboratory</span></p>
+            <h2 data-i18n="labModule.title">A flagship with a working annex.</h2>
+          </div>
+          <p class="section-heading__lead" data-i18n="labModule.lead">The Laboratory is one room with two depths: the public practice floor, and a research-development desk for carrying questions further.</p>
+        </div>
+
+        <div class="lab-map reveal">
+          <article class="lab-node lab-node--main">
+            <div class="lab-node__head">
+              <span class="lab-node__type" data-i18n="labModule.mainType">Flagship · Main room</span>
+              <span class="lab-node__code">LAB / 01</span>
+            </div>
+            <img class="lab-node__logo" src="assets/brand/logo-round.png" alt="" width="512" height="512">
+            <h3>Laboratoire de la <em>Haute Table</em></h3>
+            <p class="lab-node__cn" lang="zh-Hans">高桌 CS 实验室</p>
+            <p data-i18n="labModule.mainBody">A public practice floor for programming, algorithms, AI, contests and defensive security. The work begins with an executable idea and a visible result.</p>
+            <ul class="lab-capabilities">
+              <li data-i18n="labModule.cap1">56 practice problems with live debugging</li>
+              <li data-i18n="labModule.cap2">15 interactive algorithm and AI demos</li>
+              <li data-i18n="labModule.cap3">74 curated reference entries</li>
+              <li data-i18n="labModule.cap4">17 contest guides and four-year planning</li>
+              <li data-i18n="labModule.cap5">A solo cyber-defence simulation</li>
+            </ul>
+            <a class="text-link" href="https://imseo-joon.github.io/HTcsLab/" target="_blank" rel="noopener">
+              <span data-i18n="labModule.mainCta">Open the practice floor</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <div class="lab-map__connector" aria-hidden="true">
+            <span class="lab-map__rail"></span>
+            <span class="lab-map__node"></span>
+            <b data-i18n="labModule.branch">Grows from the laboratory</b>
+          </div>
+
+          <article class="lab-node lab-node--annex">
+            <div class="lab-node__head">
+              <span class="lab-node__type" data-i18n="labModule.annexType">Subproject · Research annex</span>
+              <span class="lab-node__code">R&amp;D / 04</span>
+            </div>
+            <img class="lab-node__logo" src="assets/brand/logo-round.png" alt="" width="512" height="512">
+            <h3>High Table <em>Research Department</em></h3>
+            <p class="lab-node__cn" lang="zh-Hans">高桌科研发展司</p>
+            <p data-i18n="labModule.annexBody">The Laboratory's research wing: a full-chain studio for framing questions, choosing methods, indexing evidence, using tools and rehearsing a defence.</p>
+            <ul class="lab-capabilities">
+              <li data-i18n="labModule.annexCap1">28 engineering subfields</li>
+              <li data-i18n="labModule.annexCap2">81 source-linked papers</li>
+              <li data-i18n="labModule.annexCap3">A 10-stage research chain</li>
+              <li data-i18n="labModule.annexCap4">A charter studio and working toolkit</li>
+              <li data-i18n="labModule.annexCap5">Field notes and defence rehearsal</li>
+            </ul>
+            <a class="text-link" href="https://imseo-joon.github.io/HTresearchDepartment/" target="_blank" rel="noopener">
+              <span data-i18n="labModule.annexCta">Open the research annex</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+
+        <p class="lab-map__note reveal" data-i18n="labModule.note">Both rooms share the same origin, method and editorial standard. The Research Department is linked here as part of the Laboratory, while also receiving its own entry above.</p>
+      </div>
+    </section>
+
+    <section class="section section--progress" id="progress">
+      <div class="wrap">
+        <div class="progress-head reveal">
+          <p class="section-index"><span>04</span><span data-i18n="progress.kicker">In progress</span></p>
+          <h2 data-i18n="progress.title">The table is never finished.</h2>
+          <p data-i18n="progress.lead">These are living projects. This edition is a snapshot of work in motion — not a declaration of completion.</p>
+        </div>
+
+        <div class="progress-ledger reveal">
+          <article class="ledger-row ledger-row--now">
+            <div class="ledger-row__status">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span data-i18n="progress.now.label">Now</span>
+              <b>OCT 2026</b>
+            </div>
+            <div class="ledger-row__body">
+              <h3 data-i18n="progress.now.title">Three flagships in internal beta. The research annex is live.</h3>
+              <p data-i18n="progress.now.body">Every room is usable now. Each is also being tested, corrected and extended in public.</p>
+            </div>
+          </article>
+          <article class="ledger-row">
+            <div class="ledger-row__status">
+              <span>02</span>
+              <span data-i18n="progress.refine.label">In refinement</span>
+            </div>
+            <div class="ledger-row__body">
+              <h3 data-i18n="progress.refine.title">Reading comfort, navigation, performance and multilingual consistency.</h3>
+              <p data-i18n="progress.refine.body">Accessibility, mobile behaviour, source checks and the clarity of the path between rooms.</p>
+            </div>
+          </article>
+          <article class="ledger-row">
+            <div class="ledger-row__status">
+              <span>03</span>
+              <span data-i18n="progress.next.label">Next at the table</span>
+            </div>
+            <div class="ledger-row__body">
+              <h3 data-i18n="progress.next.title">More practice, sharper role intelligence, deeper language resources, stronger research workflows.</h3>
+              <p data-i18n="progress.next.body">The direction is cumulative: make each room more useful, then make the connections between rooms more legible.</p>
+            </div>
+          </article>
+          <article class="ledger-row">
+            <div class="ledger-row__status">
+              <span>∞</span>
+              <span data-i18n="progress.always.label">Always on</span>
+            </div>
+            <div class="ledger-row__body">
+              <h3 data-i18n="progress.always.title">Editorial review, source checks, corrections and cache updates.</h3>
+              <p data-i18n="progress.always.body">No fixed release theatre. Work ships when it is ready, then keeps being reviewed.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="progress-foot reveal">
+          <p data-i18n="progress.note">Last editorial pass · October 2026</p>
+          <p data-i18n="progress.motto">Published, then improved.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--doors" id="doors">
+      <div class="wrap">
+        <div class="doors-head reveal">
+          <p class="eyebrow" data-i18n="doors.kicker">The house is open</p>
+          <h2 data-i18n="doors.title">Choose the room you need.</h2>
+          <p data-i18n="doors.lead">Start with the task in front of you. The other rooms will still be here when the question changes.</p>
+        </div>
+
+        <div class="door-grid reveal">
+          <a class="door door--lab" href="https://imseo-joon.github.io/HTcsLab/" target="_blank" rel="noopener">
+            <span class="door__num">01</span>
+            <span class="door__type" data-i18n="doors.labType">Flagship · Practice</span>
+            <h3 data-i18n="doors.lab">Computer Science Laboratory</h3>
+            <p data-i18n="doors.labBody">Solve, build, watch, rehearse.</p>
+            <span class="door__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="door door--recruit" href="https://imseo-joon.github.io/HTrecruitmentInstitute/" target="_blank" rel="noopener">
+            <span class="door__num">02</span>
+            <span class="door__type" data-i18n="doors.recruitType">Flagship · Careers</span>
+            <h3 data-i18n="doors.recruit">Recruitment Institute</h3>
+            <p data-i18n="doors.recruitBody">Read the role before the room.</p>
+            <span class="door__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="door door--grammar" href="https://imseo-joon.github.io/HTgrammaticalResearch/" target="_blank" rel="noopener">
+            <span class="door__num">03</span>
+            <span class="door__type" data-i18n="doors.grammarType">Flagship · Language</span>
+            <h3 data-i18n="doors.grammar">Grammatical Research Center</h3>
+            <p data-i18n="doors.grammarBody">Give experience a clearer language.</p>
+            <span class="door__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="door door--research" href="https://imseo-joon.github.io/HTresearchDepartment/" target="_blank" rel="noopener">
+            <span class="door__num">04</span>
+            <span class="door__type" data-i18n="doors.researchType">Subproject · Research</span>
+            <h3 data-i18n="doors.research">Research Department</h3>
+            <p data-i18n="doors.researchBody">Carry the question through.</p>
+            <span class="door__arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="#top" aria-label="HighTableGroup" data-i18n-aria="brand.aria">
+            <img class="brand__mark" src="assets/brand/logo-round.png" alt="" width="512" height="512">
+            <span class="brand__text">
+              <span class="brand__name">HighTableGroup</span>
+              <span class="brand__sub" data-i18n="brand.sub">Research · Innovation · Together</span>
+            </span>
+          </a>
+          <p data-i18n="footer.mission">An independent group building public environments for learning, work, language and research.</p>
+          <p class="footer-cn" lang="zh-Hans">高桌会议集团 · 研究 · 创新 · 同行</p>
+        </div>
+        <div class="footer-column">
+          <span class="footer-label" data-i18n="footer.rooms">The rooms</span>
+          <a href="https://imseo-joon.github.io/HTcsLab/" target="_blank" rel="noopener" data-i18n="footer.lab">Computer Science Laboratory</a>
+          <a href="https://imseo-joon.github.io/HTrecruitmentInstitute/" target="_blank" rel="noopener" data-i18n="footer.recruit">Recruitment Institute</a>
+          <a href="https://imseo-joon.github.io/HTgrammaticalResearch/" target="_blank" rel="noopener" data-i18n="footer.grammar">Grammatical Research Center</a>
+          <a href="https://imseo-joon.github.io/HTresearchDepartment/" target="_blank" rel="noopener" data-i18n="footer.research">Research Department</a>
+        </div>
+        <div class="footer-column">
+          <span class="footer-label" data-i18n="footer.status">Status</span>
+          <span><i class="status-dot status-dot--beta" aria-hidden="true"></i><span data-i18n="footer.beta">Three flagships in internal beta</span></span>
+          <span><i class="status-dot status-dot--live" aria-hidden="true"></i><span data-i18n="footer.live">Research Department live</span></span>
+          <span><i class="status-dot" aria-hidden="true"></i><span data-i18n="footer.rolling">Rolling editorial updates</span></span>
+        </div>
+        <div class="footer-column footer-column--language">
+          <span class="footer-label" data-i18n="footer.language">Language</span>
+          <div class="language-switch language-switch--footer" role="group" aria-label="Choose language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="zh" aria-pressed="false">中</button>
+            <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+          </div>
+          <a href="#top" class="footer-top" data-i18n="footer.top">Back to the table ↑</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HighTableGroup</span>
+        <span data-i18n="footer.independent">Independent · Public-source · No tracking</span>
+        <span>EN / 中 / FR</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js?v=5" defer></script>
+  <script src="assets/js/main.js?v=5" defer></script>
+</body>
+</html>

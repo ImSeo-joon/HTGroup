@@ -1,0 +1,49 @@
+{
+  "name": "HighTableGroup",
+  "short_name": "HTG",
+  "description": "Research, innovation and public knowledge across three flagship institutes, one laboratory and one research annex.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071320",
+  "theme_color": "#071320",
+  "icons": [
+    {
+      "src": "assets/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/brand/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Flagship institutes",
+      "short_name": "Flagships",
+      "url": "./#flagships"
+    },
+    {
+      "name": "Laboratory",
+      "short_name": "Laboratory",
+      "url": "./#laboratory"
+    },
+    {
+      "name": "In progress",
+      "short_name": "Updates",
+      "url": "./#progress"
+    }
+  ]
+}
